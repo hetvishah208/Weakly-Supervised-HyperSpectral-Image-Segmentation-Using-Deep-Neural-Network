@@ -84,35 +84,35 @@ The number of filters in the first Conv2D layer (`C1 = 3 × numPCAcomponents = 9
 
 ## Results
 
-**Test set: 2,563 labeled pixels, 25% holdout**
+Test set: 2,563 labeled pixels, 25% holdout
 
 | Metric | Value |
-|---|---|
-| Test Accuracy | 84.4% |
-| Macro F1 | 0.90 |
-| Macro Precision | 0.89 |
-| Macro Recall | 0.92 |
-| Test Loss | 48.9% |
+| :--- | :--- |
+| **Test Accuracy** | 84.39% (84.4%) |
+| **Macro F1** | 0.90 |
+| **Macro Precision** | 0.89 |
+| **Macro Recall** | 0.92 |
+| **Test Loss** | 48.67% |
 
 ### Per-Class Results
 
-| Class | Precision | Recall | F1 | Support |
-|---|---|---|---|---|
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :---: | :---: | :---: | :---: |
 | Alfalfa | 1.00 | 1.00 | 1.00 | 11 |
-| Corn-notill | 0.70 | 0.73 | 0.72 | 357 |
-| Corn-mintill | 0.76 | 0.83 | 0.79 | 208 |
-| Corn | 0.81 | 0.92 | 0.86 | 59 |
-| Grass-pasture | 0.98 | 0.94 | 0.96 | 121 |
-| Grass-trees | 0.98 | 0.98 | 0.98 | 183 |
+| Corn-notill | 0.71 | 0.74 | 0.73 | 357 |
+| Corn-mintill | 0.75 | 0.84 | 0.79 | 208 |
+| Corn | 0.79 | 0.92 | 0.85 | 59 |
+| Grass-pasture | 0.99 | 0.94 | 0.97 | 121 |
+| Grass-trees | 0.99 | 0.98 | 0.99 | 183 |
 | Grass-pasture-mowed | 1.00 | 1.00 | 1.00 | 7 |
 | Hay-windrowed | 1.00 | 1.00 | 1.00 | 120 |
 | Oats | 0.83 | 1.00 | 0.91 | 5 |
 | Soybean-notill | 0.74 | 0.80 | 0.77 | 243 |
-| Soybean-mintill | 0.84 | 0.73 | 0.78 | 614 |
-| Soybean-clean | 0.75 | 0.78 | 0.77 | 148 |
+| Soybean-mintill | 0.84 | 0.72 | 0.78 | 614 |
+| Soybean-clean | 0.73 | 0.78 | 0.76 | 148 |
 | Wheat | 1.00 | 1.00 | 1.00 | 51 |
 | Woods | 0.98 | 0.98 | 0.98 | 316 |
-| Buildings-Grass-Trees-Drives | 0.88 | 0.95 | 0.91 | 97 |
+| Buildings-Grass-Trees-Drives | 0.87 | 0.95 | 0.91 | 97 |
 | Stone-Steel-Towers | 0.96 | 1.00 | 0.98 | 23 |
 
 **Observations:**
