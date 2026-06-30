@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset files (download separately per README)
+Data/
+*.mat
+
+# OS
+.DS_Store
+Thumbs.db
